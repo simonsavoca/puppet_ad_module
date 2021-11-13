@@ -1,0 +1,7 @@
+name: action-pdk-validate
+on: [pull_request]    
+jobs:
+  action-pdk-validate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: puppets-epic-show-theatre/action-pdk-validate@v1.1.0
