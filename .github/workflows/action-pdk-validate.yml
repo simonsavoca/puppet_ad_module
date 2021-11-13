@@ -1,5 +1,5 @@
 name: action-pdk-validate
-on: [pull_request]    
+on:    
 jobs:
   action-pdk-validate:
     runs-on: ubuntu-latest
