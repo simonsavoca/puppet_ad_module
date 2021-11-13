@@ -1,5 +1,6 @@
 name: action-pdk-validate
-on:    
+on:
+ workflow_dispatch:
 jobs:
   action-pdk-validate:
     runs-on: ubuntu-latest
